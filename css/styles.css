@@ -18,6 +18,13 @@ ul, li {
   text-decoration: none;
 }
 
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 h1, h2, p {
   color: #faebd7;
 }
