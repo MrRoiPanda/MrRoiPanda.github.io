@@ -14,8 +14,8 @@ body {
   align-items: center;
 }
 
-ul, li {
-  text-decoration: none;
+li {
+  list-style: none;
 }
 
 ul {
