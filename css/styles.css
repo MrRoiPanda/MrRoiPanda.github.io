@@ -54,6 +54,10 @@ h2 {
   align-items: center;
 }
 
+.projects-table li {
+  max-width: 10vw;
+}
+
 @media only screen and (min-width: 992px) {
   .home {
     flex-direction: column;
