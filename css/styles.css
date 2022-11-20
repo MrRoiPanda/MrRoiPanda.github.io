@@ -1,20 +1,27 @@
 * {
     margin: 0;
     padding: 0;
-  }
+}
   
-  body {
-    width:100vw;
-    height: 100vh;
-    box-sizing: border-box;
-    background-color: #212121;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+body {
+  width: 100 vw;
+  height: 100 vh;
+  box-sizing: border-box;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  h1 {
-    color: antiquewhite;
-    font-size: large;
-  }
+h1, h2 {
+  color: #faebd7;
+}
+
+h1 {
+  font-size: 2 em;
+}
+
+h2 {
+  font-size: 1.6 em;
+}
