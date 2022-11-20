@@ -21,7 +21,7 @@ li {
 ul {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -58,7 +58,7 @@ h2 {
   max-width: 10vw;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 992px) {
   .home {
     flex-direction: column;
   }
