@@ -1,10 +1,10 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    width: 100vw;
+  }
+  
+  body {
+    width:100vw;
     height: 100vh;
     box-sizing: border-box;
     background-color: #212121;
@@ -12,68 +12,4 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-}
-
-.v1_2 {
-    height: 75 vh;
-    background: rgba(255, 255, 255, 1);
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    overflow: hidden;
-}
-
-.v1_4 {
-    height: 75 vh;
-    background: url("../images/v1_4.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    opacity: 1;
-    position: absolute;
-    top: 315px;
-    left: 628px;
-    overflow: hidden;
-}
-
-.v1_3 {
-    width: 100%;
-    height: 810px;
-    background: rgba(245, 206, 241, 1);
-    opacity: 1;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    border-top-left-radius: 42px;
-    border-top-right-radius: 42px;
-    border-bottom-left-radius: 42px;
-    border-bottom-right-radius: 42px;
-    overflow: hidden;
-}
-
-.v1_5 {
-    width: 917px;
-    color: rgba(0, 0, 0, 1);
-    position: absolute;
-    top: 100px;
-    left: 261px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 104px;
-    opacity: 1;
-    text-align: center;
-}
-
-.v1_6 {
-    width: 864px;
-    color: rgba(0, 0, 0, 1);
-    position: absolute;
-    top: 337px;
-    left: 288px;
-    font-family: Jacques Francois;
-    font-weight: Regular;
-    font-size: 104px;
-    opacity: 1;
-    text-align: center;
-}
+  }
