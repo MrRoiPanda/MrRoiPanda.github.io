@@ -32,7 +32,7 @@ h2 {
 }
 
 .home {
-  height: 100vh;
+  /*height: 100vh;*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,7 +40,7 @@ h2 {
 }
 
 .projects {
-  height: 100vh;
+  /*height: 100vh;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
