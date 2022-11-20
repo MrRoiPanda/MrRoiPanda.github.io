@@ -32,7 +32,6 @@ h2 {
 }
 
 .home {
-  /*height: 100vh;*/
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -40,7 +39,6 @@ h2 {
 }
 
 .projects {
-  /*height: 100vh;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -55,12 +53,15 @@ h2 {
 }
 
 .projects-table li img {
-  max-width: 10vw;
+  max-width: 80vw;
 }
 
 @media only screen and (max-width: 992px) {
   .home {
     flex-direction: column;
+  }
+  .home img {
+    max-width: 80vw;
   }
   .projects-table {
     flex-direction: column;
