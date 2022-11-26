@@ -36,13 +36,13 @@ h2 {
   justify-content: center;
   align-items: center;
 
+  padding: 2vh;
+  
   background-color: #f0f8ff;
-
-  margin: 2vh;
 }
-
 .social a {
   margin: 1vh;
+  padding: 1vh;
 }
 
 .home {
