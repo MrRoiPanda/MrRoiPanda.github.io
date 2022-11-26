@@ -30,6 +30,19 @@ h2 {
   font-size: 1.6em;
 }
 
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  margin: 2vh;
+}
+
+.social a {
+  margin: 1vh;
+}
+
 .home {
   display: flex;
   flex-direction: row;
