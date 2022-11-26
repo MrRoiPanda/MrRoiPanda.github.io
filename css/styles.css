@@ -39,6 +39,14 @@ h2 {
   margin: 10vh;
 }
 
+.home div {
+  margin: 2vh;
+}
+
+.home img {
+  margin: 2vh;
+}
+
 .projects {
   display: flex;
   flex-direction: column;
@@ -51,6 +59,10 @@ h2 {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.projects-table li	{
+  margin: 2vh;
 }
 
 .projects-table li img {
