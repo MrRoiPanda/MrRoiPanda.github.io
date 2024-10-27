@@ -25,7 +25,7 @@ header {
     height: 35px;
 }
 
-@media (max-width: 767) {
+@media (max-width:  767px) {
     .icon-box {
         margin-top: 20px;
         height: 70px;
@@ -42,16 +42,16 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 20vh 0;
+    padding: 40px 0;
 }
 
 .home-logo {
-    width: 60svw;
+    width: 60svh;
 }
 
-@media (max-width: 767) {
+@media (max-width:  767px) {
     .home-logo {
-        width: 40svw;
+        width: 30svh;
     }
 }
 
@@ -113,7 +113,7 @@ main {
     text-transform: uppercase;
 }
 
-@media (max-width: 767){
+@media (max-width: 767px){
     .card {
         max-height: 70svh;
         min-height: 60svh;
@@ -145,7 +145,7 @@ main {
 
 .info-grid {
     display: grid;
-    grid-template-rows: 40svh 20svh 20svh auto;
+    grid-template-rows: 50svh 30svh auto auto;
     grid-template-columns: repeat(8, 1fr);
     column-gap: 10px;
     row-gap: 10px;
@@ -185,7 +185,9 @@ main {
     grid-area: 4 / 1 / 5 / 5;
 }
 
-@media (max-width: 767) {
+@media (max-width:  767px) {
+    .info-grid {grid-template-rows: 40svh 20svh 20svh auto;}
+
     .info-box-text {
         font-size: 5vw;
         line-height: 1.1em;
@@ -217,28 +219,48 @@ main {
 }
 
 .social {
+    display: flex;
     align-items: center;
     position: relative;
-    display: flex;
+    justify-content: center;
     height: 100vh;
     padding: 20px;
 }
 
 .social-form {
     width: 100%;
+    max-width: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .social-title {
     text-transform: uppercase;
-    font-size: 10vw;
+    font-size: 10em;
     line-height: .83em;
     white-space: nowrap;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    .social-title {
+        font-size: 15vw;
+    }
 }
 
 .form {
     display: flex;
-    max-width: none;
+    max-width: 50vh;
     min-width: 335px;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .form {
+        max-width: none;
+    }
+    
 }
 
 .form-field {
@@ -291,18 +313,18 @@ button {
 
 .footer-content-box {
     align-items: center;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     bottom: 0;
     position: relative;
     width: 100%;
 }
 
-@media (max-width: 767) {
+@media (max-width:  767px) {
     .footer-content-box {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        display: flex;
+        flex-direction: column;
     }
 }
 
