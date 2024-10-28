@@ -129,6 +129,15 @@ main {
     .card {
         width: 45svh;
     }
+    .card-info-title {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 1600px) {
+    .card-info-title {
+        font-size: 4em;
+    }
 }
 
 .info {
@@ -272,12 +281,19 @@ main {
 input {
     height: 80px;
     padding-left: 20px;
-    border: 1px solid;
+    border: 1px hsla(0, 0, 10, 100);
+    border-style: solid;
+    background-color: black;
+    color: white;
 }
 
 button {
     height: 80px;
     text-transform: uppercase;
+}
+
+.button-txt {
+    font-size: large;
 }
 
 .social-media {
