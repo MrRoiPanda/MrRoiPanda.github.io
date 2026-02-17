@@ -43,7 +43,7 @@ body {
 
 .header {
   background-color: #1a1a1a;
-  background-image: url('../assets/header-bg.webp');
+  background-image: url('./assets/header-bg.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -548,3 +548,4 @@ main {
     scroll-behavior: auto;
   }
 }
+
