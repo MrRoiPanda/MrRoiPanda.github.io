@@ -1,0 +1,62 @@
+# Portfolio - Robots.txt Configuration
+# Prevents bots from scraping and crawling the site
+
+# Disallow all bots except major search engines
+User-agent: *
+Disallow: /
+
+# Allow major search engines
+User-agent: Googlebot
+Disallow: 
+
+User-agent: Bingbot
+Disallow: 
+
+User-agent: Slurp
+Disallow: 
+
+User-agent: DuckDuckBot
+Disallow: 
+
+# Block scraping bots
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: Scrapy
+Disallow: /
+
+User-agent: curl
+Disallow: /
+
+User-agent: wget
+Disallow: /
+
+User-agent: python-requests
+Disallow: /
+
+User-agent: Mechanize
+Disallow: /
+
+# Disallow access to sensitive areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+Disallow: /*.json$
+
+# Crawl delay
+Crawl-delay: 1
+
+# Request rate
+Request-rate: 1/1s
+
+# Sitemap (optional - uncomment if you have a sitemap)
+# Sitemap: https://yoursite.com/sitemap.xml
